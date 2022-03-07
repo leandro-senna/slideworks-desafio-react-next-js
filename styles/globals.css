@@ -1,16 +1,23 @@
-html,
-body {
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=MuseoModerno:wght@200&display=swap');
+* {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	border: 0;
+	box-sizing: border-box;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+body {
+    background: url("./background.png") center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
 }
-
-* {
-  box-sizing: border-box;
+*::-webkit-scrollbar {
+	display: none;
+}
+main {
+  max-width: 1360px;
+  min-height: calc(100vh - 170px);
+  margin: 0 auto;
+  padding: 67px 20px 20px 20px;
 }
